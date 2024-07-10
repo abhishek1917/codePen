@@ -10,7 +10,7 @@ const Header=()=>{
 
     return (
         <>
-        <Container>
+        <Container position='static'>
             <Toolbar style={{color:'orange'}}>
                 hello
             </Toolbar>
