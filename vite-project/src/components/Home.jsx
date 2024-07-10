@@ -1,17 +1,19 @@
 import Header from "./Header"
-import Editor from "./Editor";
+import Code from "./Code";
+import Result from "./Result"
 
 const Home =()=>{
     return (
         <>
              <Header/>
-             <Editor/>
-             <Editor/>
-             <Editor/>
+        
+             <Code/>
+             <Result/>
+             
 
         </>
        
     )
 }
 
-export default Home;
+export default Home; 

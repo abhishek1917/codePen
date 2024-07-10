@@ -7,15 +7,17 @@ const Header=()=>{
     height:9vh;
     `
 
+    const src='https://img.freepik.com/premium-photo/symbol-atom-black-background_483040-6846.jpg'
+
 
     return (
         <>
         <Container position='static'>
-            <Toolbar style={{color:'orange'}}>
-                hello
+            <Toolbar style={{color:'yellow'}}>
+              <img src={src} alt='logo' style={{width:60}}/>
             </Toolbar>
         </Container>
-            <h2>Header hai mere bhai</h2>
+           
         </>
     )
 }
